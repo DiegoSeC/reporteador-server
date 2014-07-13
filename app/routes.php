@@ -11,6 +11,8 @@
 |
 */
 
+Route::post('credential', 'ReportController@credential');
+
 Route::get('/', function()
 {
 	return View::make('hello');
